@@ -21,4 +21,63 @@ buwas na petsa
 yana na petsa
 nano kita yana
 nano kita kahapon
-
+What day is it today?
+Can you remind me what day it is?
+Do you know what day of the week it is today?
+Hey, what's the date today?
+May I know what day it is currently?
+What was yesterday's date?
+Could you tell me the date of the day before today?
+What's the date for tomorrow?
+Can you inform me about tomorrow's date?
+What day of the week is tomorrow?
+Unsa man diay karon nga adlaw?
+Palihug pahinumdumi ako unsa man karon nga adlaw?
+Nahibaw-an nimo unsa ka adlaw karon?
+Hey, unsa man ang petsa karon?
+Pwede ko mahibaw-an kung unsa ka adlaw karon?
+Unsa man ang petsa kagahapon?
+Mahibaw-an nimo ang petsa sa adlaw nga wala pa?
+Unsa man ang petsa buwas?
+Mahibaw-an ba nako ang petsa sa buwas?
+Unsa man ka adlaw buwas?
+Anong araw ngayon?
+Maari mo bang ipaalala sa akin kung anong araw ngayon?
+Alam mo ba kung anong araw ng linggo ngayon?
+Hey, ano ang petsa ngayon?
+Maari ko bang malaman kung anong araw ngayon?
+Ano ang araw kahapon?
+Pwede mo bang sabihin sa akin ang petsa ng araw bago ngayon?
+Ano ang petsa bukas?
+Maari mo bang ipaalam sa akin ang petsa ng bukas?
+Anong araw ng linggo ang bukas?
+Sorry to ask, but what day was yesterday?
+Can you tell me the date of the day before yesterday?
+What day of the week was it yesterday?
+Do you remember what day it was yesterday?
+Hey, what day are we expecting tomorrow?
+Can you remind me what day it was yesterday?
+What's the date for the day after tomorrow?
+Do you know what day comes after tomorrow?
+What day will it be the day after tomorrow?
+Hey, what day of the week is the day after tomorrow?
+Pasensya na sa akong pangutana, unsa man kahapon nga adlaw?
+Pwede ka ba mohatag nako sa petsa sa adlaw sa una nga adlaw sa kagahapon?
+Unsa man nga adlaw kahapon?
+Mahinumdom ka ba kung unsa nga adlaw kahapon?
+Hey, unsa man nga adlaw atong atangan buwas?
+Pahinumdum sa ako unsa man ang adlaw kahapon?
+Unsa man nga petsa sa adlaw sunod sa buwas?
+Nahibaw-an nimo unsa man nga adlaw sunod sa buwas?
+Unsa man nga adlaw ang mosunod sa buwas?
+Hey, unsa man nga adlaw sa linggo ang mosunod sa buwas?
+Pasensya na sa tanong, pero kung anong araw kahapon?
+Maari mo bang sabihin sa akin ang petsa ng araw bago kahapon?
+Anong araw ng linggo kahapon?
+Maalala mo ba kung anong araw kahapon?
+Hey, anong araw ngayon ang ating hinihintay bukas?
+Maari mo bang ipaalala sa akin kung anong araw kahapon?
+Anong petsa sa araw pagkatapos ng bukas?
+Alam mo ba kung anong araw susunod sa bukas?
+Anong araw susunod sa bukas?
+Hey, anong araw ng linggo susunod sa bukas?

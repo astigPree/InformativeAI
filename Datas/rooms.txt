@@ -1,106 +1,73 @@
-hain an room 501
-hain an room 502
-hain an room 503
-hain an room 504
-hain an room 505
-hain an room 506
-hain an room 507
-hain an room 508
-hain an room 509
-hain an room 510
-hain an room 511
-hain an room 512
-hain an room 513
-hain an room 514
-hain an room 515
-hain an room 516
-hain an room 517
-hain an opisina
-hain an mga building
-room 501
-room 502
-room 503
-room 504
-room 505
-room 506
-room 507
-room 508
-room 509
-room 510
-room 511
-room 512
-room 513
-room 514
-room 515
-room 516
-room 517
-opisina
-hain an mga banyo
-banyo
-radio
-hain an room san mga teachers
-hain an room san mga officers
-hain an gina stayan san dean
-hain an room san dean
-where is room 501
-where is room 502
-where is room 503
-where is room 504
-where is room 505
-where is room 506
-where is room 507
-where is room 508
-where is room 509
-where is room 510
-where is room 511
-where is room 512
-where is room 513
-where is room 514
-where is room 515
-where is room 516
-where is room 517
-where is the room of dean
-where i can find the dean
-where i can find the student officers 
-where i can find the teachers
-where i can find the teacher office
-where i can find the dean office
-where i can find the student officers office
-nasaan ang room 501
-nasaan ang room 502
-nasaan ang room 503
-nasaan ang room 504
-nasaan ang room 505
-nasaan ang room 506
-nasaan ang room 507
-nasaan ang room 508
-nasaan ang room 509
-nasaan ang room 510
-nasaan ang room 511
-nasaan ang room 512
-nasaan ang room 513
-nasaan ang room 514
-nasaan ang room 515
-nasaan ang room 516
-nasaan ang room 517
-nasaan ang dean
-nasaan ang teacher
-nasaan ang officer
-nasaan ang mga banyo
-saan ko makikita ang room 501
-saan ko makikita ang room 502
-saan ko makikita ang room 503
-saan ko makikita ang room 504
-saan ko makikita ang room 505
-saan ko makikita ang room 506
-saan ko makikita ang room 507
-saan ko makikita ang room 508
-saan ko makikita ang room 509
-saan ko makikita ang room 510
-saan ko makikita ang room 511
-saan ko makikita ang room 512
-saan ko makikita ang room 513
-saan ko makikita ang room 514
-saan ko makikita ang room 515
-saan ko makikita ang room 516
-saan ko makikita ang room 517
+How do I find room 503?
+Which hallway are rooms 506 to 509 located in?
+Is there a restroom near rooms 511 to 513?
+Where is room 515 located?
+Can you give me directions to room 517?
+How do I get to the main office from the lobby?
+Is there a meeting room available in this building?
+Which floor are the even numbered rooms on?
+Are there any vending machines on this floor?
+Is there a phone directory available to call the offices?
+How do I get to room 501 from the stairwell?
+Where can I find room 514?
+Is there a waiting area near the main office?
+Which elevator goes to the fifth floor?
+Is there a break room for employees in this building?
+Unsang dapit maapil ang kwarto nga 503?
+Sa unsang hallway maapil ang mga kwartong 506 hangtod 509?
+Aduna bay paliguan nga duol sa mga kwartong 511 hangtod 513?
+Hain makit-an ang kwarto nga 515?
+Pwede mo ba ko pakuyog paingon sa kwarto nga 517?
+Unsaon pag-abot sa main office gikan sa lobby?
+Aduna bay meeting room nga pwede gamiton dinhi sa building?
+Sa unsang floor maapil ang mga kwartong may even nga number?
+Naa bay vending machines sa maong floor?
+Aduna bay directory nga pwede gamiton aron tawagan ang mga opisina?
+Unsaon pag-abot sa kwarto nga 501 gikan sa stairwell?
+Asa mahimong makit-an ang kwarto nga 514?
+Naa bay waiting area duol sa main office?
+Unsa nga elevator ang muadto sa fifth floor?
+Aduna bay break room para sa mga empleyado sa building naa diri?
+Saan makikita ang kwarto na 503?
+Saan banda ang mga kwarto na 506 hanggang 509?
+Meron bang banyo malapit sa mga kwarto na 511 hanggang 513?
+Saan makikita ang kwarto na 515?
+Pwede mo ba akong samahan patungong kwarto na 517?
+Paano ako makakarating sa main office mula sa lobby?
+Mayroon bang meeting room na pwedeng gamitin dito sa building?
+Saang floor makikita ang mga kwartong may even number?
+Mayroon ba ditong vending machines sa floor na ito?
+Mayroon bang directory na pwedeng gamitin para tawagan ang mga opisina?
+Paano ako makakapunta sa kwarto na 501 mula sa stairwell?
+Saan makikita ang kwarto na 514?
+Meron ba ditong waiting area malapit sa main office?
+Aling elevator ang pumupunta sa fifth floor?
+Mayroon ba ditong break room para sa mga empleyado ng building?
+Asa man ang main office diri?
+Diin ang 501 nga kwarto?
+Hain ang 508 nga kwarto?
+Taga-asa ang 517 nga kwarto?
+Sa diin ko makita ang 503 nga kwarto?
+Asa ang 506 nga kwarto?
+Hain man ang kwarto nga 512?
+Naa ba diri ang kwarto nga 514?
+Hain ko makapangita sa kwarto nga 515?
+Asa ko makaduol sa 511 nga kwarto?
+Diin ang 502 nga kwarto?
+Sa diin ko makita ang 509 nga kwarto?
+Hain man ang kwarto nga 504?
+Naa ba diri ang 516 nga kwarto?
+Hain ang 510 nga kwarto?
+Asa ko makapangita sa main office?
+Taga-asa ang 507 nga kwarto?
+Asa man ang kwarto nga 513?
+Sa diin ang 501 nga kwarto?
+Hain ang 505 nga kwarto?
+Diin ko makita ang 517 nga kwarto?
+Asa man ang kwarto nga 508?
+Hain ang 512 nga kwarto?
+Taga-asa ang 514 nga kwarto?
+Asa ko makapangita sa kwarto nga 515?
+Sa diin ang 511 nga kwarto?
+Naa ba diri ang 502 nga kwarto?
+Asa man ang kwarto nga 509?

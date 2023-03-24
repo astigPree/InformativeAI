@@ -15,7 +15,66 @@ ano ang sasabihin mo
 ano ang itatanong mo
 may tanong ka
 meron ka bang tanong
-
+Is there anything specific you'd like to ask about?
+Do you have any questions you'd like to ask me?
+Are there any particular questions you have in mind?
+Is there something you're unsure about that you'd like to ask?
+Can I assist you with any questions you may have?
+Aduna ba kay'g pangutana nga gusto pangutana?
+Aduna ka bay pangutana nga gusto nimo ipangutana kanako?
+Aduna ba kay'g partikular nga pangutana nga nasa imong hunahuna?
+Naa ba'y di ka sigurado nga gusto nimo pangutana?
+Pwede ba kong motabang kanimo sa bisan unsang pangutana nga imong gusto ipangutana?
+Mayroon ka bang gustong itanong?
+May mga tanong ka bang nais itanong sa akin?
+Mayroon ka bang partikular na tanong sa isip mo?
+Mayroon ka bang hindi sigurado at gustong itanong?
+Maaari bang akong mag-assist sa anumang mga tanong na nais mong itanong?
+Do you have any doubts or queries that you want to clarify?
+Are there any questions on your mind that you'd like to ask me?
+Would you like me to provide any additional information or clarification?
+Is there something you're curious about that you'd like to ask?
+Can I help answer any questions you may have?
+Aduna ba kay mga pagduhaduha o mga pangutana nga gusto nimo pag-klaro?
+Naa ba'y mga pangutana sa imong huna-huna nga gusto nimo ipangutana kanako?
+Gusto nimo ba nga maghatag ako ug dugang impormasyon o pag-klaro?
+Aduna ba'y mga butang nga nagpadagan sa imong pangutana?
+Pwede ba kong motabang sa pagsabot sa bisan unsa nga mga pangutana?
+Mayroon ka bang mga alinlangan o mga tanong na nais mong linawin?
+May mga tanong ka bang nasa isip mo na gusto mong itanong sa akin?
+Gusto mo ba ng karagdagang impormasyon o paliwanag?
+Mayroon ka bang mga katanungan na gustong mong malaman?
+Maaari bang akong makatulong sa pagsagot sa anumang mga tanong na nais mong itanong?
+Is there anything that's unclear that you'd like me to explain?
+Do you need any further information before we proceed?
+Are there any questions you'd like me to address before we conclude?
+Can I help clear up any confusion or doubts you may have?
+Is there anything else you'd like to know before we wrap up?
+Aduna ba kay bisan unsa nga bag-ong pagtuon nga gusto nimo masabtan?
+Kinahanglan pa ba nimo og dugang nga impormasyon sa atong padayon?
+Naa ba'y mga pangutana nga gusto nimo nga tubagon sa wala pa kita magtapos?
+Pwede ba kong motabang sa pagpapaklaro sa bisan unsang mga kahinungdanon o pagduhaduha nga imong nadawat?
+Aduna pa ba kay lain nga gusto nimong mahibal-an sa wala pa kita magtapos?
+Mayroon bang hindi malinaw na gustong mong ipaliwanag?
+Kailangan mo pa ba ng karagdagang impormasyon bago tayo magpatuloy?
+Mayroon bang mga tanong na nais mong masagot bago tayo magtapos?
+Maaari bang akong makatulong sa pagpapaliwanag sa mga bagay na naguguluhan ka?
+Mayroon ka pa bang ibang gustong malaman bago tayo magtapos?
+Is there anything else you're curious about that you'd like to ask?
+Do you have any concerns or issues that you'd like to discuss?
+Can I provide any further information to help you understand?
+Are there any details that you'd like me to go over again?
+Do you need any clarification on the topic we just discussed?
+Aduna pa ba kay lain nga gusto nimong pangutana?
+Naa ba kay mga kabalaka o mga isyu nga gusto nimo nga atubangon?
+Pwede ba kong maghatag og dugang impormasyon aron makasabot ka?
+Aduna ba'y mga detalye nga gusto nimong usbon pag-usab?
+Kinahanglan pa ba nimo og klaripikasyon sa nahisgotang topiko?
+Mayroon ka pa bang ibang gustong malaman at nais mong itanong?
+Mayroon ka bang mga pangamba o mga isyu na nais mong talakayin?
+Maaari bang ako ay magbigay ng karagdagang impormasyon upang matulungan kang maintindihan?
+Mayroon bang mga detalyeng nais mong ipaliwanag muli?
+Kailangan mo ba ng karagdagang paliwanag sa napag-usapan natin?
 
 
 
