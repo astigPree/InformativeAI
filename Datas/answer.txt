@@ -1,7 +1,178 @@
 
-Time :
-	- i understand that you want to know the current time today time. the current time is 12 : 58 
-	- the current time to day is 12:54 , just ask if you need
+Introduction:
 
+	Good [morning/afternoon/evening], [insert name/title].
+	It is a pleasure to speak with you, [insert name/title].
+	Thank you for taking the time to speak with me, [insert name/title].
+	May I extend my warmest greetings to you, [insert name/title].
+	I hope this message finds you well, [insert name/title].
+			
+
+Clossing :
+	Thank you for your time and have a great day.
+	I hope this information is useful for you.
+	It was a pleasure speaking with you.
+	Please don't hesitate to contact me if you have any further questions or concerns.
+	I wish you a wonderful day ahead.
+
+Greetings :
+	Hi there! How are you doing?
+	Hello! What's new?
+	Hey! How's your day been so far?
+	Hi! How can I assist you today?
+	Greetings! What brings you here?
+	Hey there! Long time no see. How have you been?
+	Hi! How's life treating you these days?
+	Hello! How can I be of help to you?
+	Hey! It's great to see you. How have you been?
+	Hi there! What's going on with you?
+
+Time :
+	I am pleased to inform you that the current time is [insert time].
+	The time presently is [insert time].
+	As of this moment, the time is [insert time].
+	May I inform you that the current time is [insert time].
+	Allow me to share with you that it is now [insert time].
+
+Day :
+
+	Today is [insert day].
+	The current day is [insert day].
+	As of this moment, it is [insert day].
+	May I inform you that today is [insert day].
+	Allow me to share with you that it is [insert day] today.
+	
+	Yesterday was [insert day].
+	The day before today was [insert day].
+	As of yesterday, it was [insert day].
+	May I inform you that the day before today was [insert day].
+	Allow me to share with you that it was [insert day] yesterday.
+
+	Tomorrow will be [insert day].
+	The day after today will be [insert day].
+	As of tomorrow, it will be [insert day].
+	May I inform you that the day after today will be [insert day].
+	Allow me to share with you that it will be [insert day] tomorrow.
+	
+	Today is Wednesday, yesterday was Tuesday, and tomorrow will be Thursday.
+	It is currently Sunday, yesterday was Saturday, and tomorrow will be Monday.
+	The current day is Friday, yesterday was Thursday, and tomorrow will be Saturday.
+	Today is the 15th of the month, yesterday was the 14th, and tomorrow will be the 16th.
+	It's currently the 2nd of May, yesterday was the 1st, and tomorrow will be the 3rd.
+	Today is Thursday, yesterday was Wednesday, and tomorrow will be Friday.
+	The current day is Tuesday, yesterday was Monday, and tomorrow will be Wednesday.
+	It's Friday today, yesterday was Thursday, and tomorrow will be Saturday.
+	Today is Sunday, yesterday was Saturday, and tomorrow will be Monday.
+	It's Wednesday today, yesterday was Tuesday, and tomorrow will be Thursday.
+	The current day is Monday, yesterday was Sunday, and tomorrow will be Tuesday.
+	Today is Saturday, yesterday was Friday, and tomorrow will be Sunday.
+	It's Thursday today, yesterday was Wednesday, and tomorrow will be Friday.
+	Today is Tuesday, yesterday was Monday, and tomorrow will be Wednesday.
+	The current day is Friday, yesterday was Thursday, and tomorrow will be Saturday.
+	It's Monday today, yesterday was Sunday, and tomorrow will be Tuesday.
+	Today is Wednesday, yesterday was Tuesday, and tomorrow will be Thursday.
+	It's Saturday today, yesterday was Friday, and tomorrow will be Sunday.
+	Today is Thursday, yesterday was Wednesday, and tomorrow will be Friday.
+	The current day is Sunday, yesterday was Saturday, and tomorrow will be Monday.
+	
 Room :
+	To locate the main office, you'll need to head up to the second floor of the building.
+	If you need to find the main office, it's situated on the second floor of this building.
+	On the second floor of this building, you will come across the main office.
+	The main office can be found on the second floor. You can take the stairs or elevator to get there.
+	Head up to the second floor of this building, and you'll find the main office waiting for you.
+	If you're looking for the main office, just know that it's located on the second floor of this building.
+	You'll need to make your way to the second floor of this building to find the main office.
+
+	To find room 501, you'll need to head up to the first floor of this building.
+	Room 501 is situated on the first floor of this building.
+	The first floor of this building is where you'll find room 501.
+	Take the stairs or elevator up to the first floor, and you'll come across room 501.
+	On the first floor of this building, you can find room 501.
+	If you need to locate room 501, just know that it's on the first floor of this building.
+
+	You can locate room 502 on the second floor of this building.
+	Room 502 is situated on the second floor of this building.
+	To find room 502, you'll need to head up to the second floor of this building.
+	Take the stairs or elevator up to the second floor, and you'll come across room 502.
+	On the second floor of this building, you'll find room 502.
+	If you need to find room 502, just know that it's on the second floor of this building.
+	The second floor is where you'll find room 502 located in this building.
+		
+	The third floor of this building is where you'll find rooms 503, 504, and 505.
+	Take the stairs or elevator up to the third floor, and you'll come across rooms 503, 504, and 505.
+	Rooms 503, 504, and 505 can be found on the third floor of this building.
+	To locate rooms 503, 504, and 505, you'll need to head up to the third floor of this building.
+	On the third floor of this building, you can find rooms 503, 504, and 505.
+	Rooms 503, 504, and 505 are situated on the third floor of this building.
+	If you're looking for rooms 503, 504, and 505, just know that they're all on the third floor of this building.
+
+	You can find rooms 506 and 507 on the fourth floor of this building.
+	Take the stairs or elevator up to the fourth floor, and you'll come across rooms 506 and 507.
+	The fourth floor of this building is where you'll find rooms 506 and 507.
+	Rooms 506 and 507 are located on the fourth floor of this building.
+	To locate rooms 506 and 507, you'll need to head up to the fourth floor of this building.
+	On the fourth floor of this building, you can find rooms 506 and 507.
+	Rooms 506 and 507 are situated on the fourth floor of this building.
+	
+	Rooms 508, 509, and 510 can be found on the fifth floor of this building.
+	The fifth floor of this building is where you'll find rooms 508, 509, and 510.
+	Take the stairs or elevator up to the fifth floor, and you'll come across rooms 508, 509, and 510.
+	To locate rooms 508, 509, and 510, you'll need to head up to the fifth floor of this building.
+	On the fifth floor of this building, you can find rooms 508, 509, and 510.
+	Rooms 508, 509, and 510 are situated on the fifth floor of this building.
+	If you're looking for rooms 508, 509, and 510, just know that they're all on the fifth floor of this building.
+	
+	You can find rooms 511, 512, and 513 on the sixth floor of this building.
+	Head up to the sixth floor of this building to locate rooms 511, 512, and 513.
+	Rooms 511, 512, and 513 can be found on the sixth floor of this building.
+	The sixth floor of this building is where you'll find rooms 511, 512, and 513.
+	To get to rooms 511, 512, and 513, you'll need to go up to the sixth floor of this building.
+	On the sixth floor of this building, you can find rooms 511, 512, and 513.
+	Rooms 511, 512, and 513 are situated on the sixth floor of this building.
+	
+	The seventh floor of this building is where you'll find rooms 514, 515, and 516.
+	To locate rooms 514, 515, and 516, head up to the seventh floor of this building.
+	Rooms 514, 515, and 516 can be found on the seventh floor of this building.
+	You can find rooms 514, 515, and 516 on the seventh floor of this building.
+	Rooms 514, 515, and 516 are situated on the seventh floor of this building.
+	Head up to the seventh floor of this building to find rooms 514, 515, and 516.
+	On the seventh floor of this building, you'll find rooms 514, 515, and 516.
+	
+	Rooms 517 and 518 are situated on the eighth floor of this building.
+	Head up to the eighth floor of this building to find rooms 517 and 518.
+	The eighth floor of this building is where you'll find rooms 517 and 518.
+	Rooms 517 and 518 can be found on the eighth floor of this building.
+	You can find rooms 517 and 518 on the eighth floor of this building.
+	To locate rooms 517 and 518, head up to the eighth floor of this building.
+	On the eighth floor of this building, you'll find rooms 517 and 518.
+		
+
+Crush :
+	Among the developers, there's someone who has developed feelings for a classmate named Jessa.
+	A developer in the group has developed a crush on a classmate named Jessa.
+	In the team of developers, one of them harbors romantic feelings for a fellow classmate named Jessa.
+	There's a developer who has taken a liking to one of his classmates, whose name happens to be Jessa.
+	One of the developers has a romantic interest in a girl named Jessa, who also happens to be his classmate.
+	Among the developers, there's someone who has been smitten with a classmate named Jessa.
+	A member of the development team has a crush on a fellow student named Jessa.
+		
+Anave :
+	Based on the provided information, Ms. Jessica R. Anave appears to be a highly capable and strict instructor who is adept in teaching various programming languages. She has a good sense of humor and is known for being kind-hearted despite her strict demeanor. Her students find her to be an effective teacher who is able to communicate well with them and can guide them in their future endeavors. Additionally, she is highly organized and places a great emphasis on discipline, as evidenced by her insistence on students wearing uniforms and her strict grading policy. Overall, Ms. Anave is a highly competent and dedicated teacher who prioritizes her students' education and success.
+
+Justine :
+	Based on the given information, the person referred to as "sir Justine Aban" is a skilled instructor who is known for his ability to teach Java and Arduino programming languages effectively. He is a kind and friendly teacher who is good at giving grades and is highly regarded by his students. Though he has a girlfriend, he is known for being handsome, but his professional skills and teaching abilities are what stand out the most. His students appreciate his willingness to discuss their future and provide guidance towards achieving their goals. Despite being strict at times, he is still a good-natured person and well-respected by those who have learned from him.
+
+Norle :
+	Based on the information provided, Sir Norle Magcayan appears to be a knowledgeable and skilled programming instructor, with a reputation for being tough but fair. He is highly respected by his students for his ability to explain complex concepts, although some students struggle to keep up with his lessons. Additionally, he is known for his reliability when it comes to grading, with students remarking that he rarely gives failing grades. However, his attendance record is not the best, as he is sometimes absent and known to be often late. Despite these shortcomings, he is admired for his proficiency in programming and has helped many students complete successful software projects. While he may enjoy a drink or two on occasion, Sir Norle's dedication to teaching and programming makes him a respected and valued member of the academic community.
+	
+
+Salidaga :
+	Based on the information provided, it seems that Mr. Joel Salidaga is a knowledgeable and skilled teacher in the field of electronics and programming. He is known for being kind-hearted, patient, and a good grader. Despite sometimes being difficult to understand, his expertise in assembling wires and teaching about automata is admirable. He is highly respected as a professor, and his students appreciate his clear and thorough teaching style. Mr. Joel Salidaga is an excellent role model and a valuable asset to the academic community.
+
+
+Violeta :
+	Ma'am Violeta B. Monticalvo is a respected and dedicated engineer who is highly regarded by her peers and students alike. Her strict but fair teaching style and her passion for teaching has inspired many young people to pursue careers in engineering. Her commitment to her students' well-being and her dedication to her profession are a testament to her character and her unwavering desire to make a positive impact on the world. She is a true role model and a source of inspiration to those around her, and her legacy will continue to inspire future generations of engineers for years to come. Ma'am Viole's contributions to the field of engineering and education are invaluable, and her presence in the academic community is a true asset.
+	
+	
 	
