@@ -1,0 +1,289 @@
+#:import chex kivy.utils.get_color_from_hex
+
+MainWidget :
+    canvas.before :
+        Color :
+            rgba : 0 , 0 , 0 , 1
+        Rectangle :
+            pos : self.pos
+            size : self.size
+
+    spacing : dp(1)
+    padding : [ dp(3) , dp(0) , dp(3) , dp(0) ]
+
+    features_scroller : features_scroller
+    conversations : conversations
+    activity_info : activity_info
+
+    BoxLayout :
+        size_hint : 0.25 , 1
+        orientation : 'vertical'
+
+        # --------> Features Container
+        TitleBar :
+            size_hint : 1 , 0.05
+            text : 'Features'
+
+        ScrollView :
+            size_hint : 1 , 0.65
+            id : features_scroller
+            scroll_type : ['bars']
+            padding : [ dp(1) , dp(5) , dp(1) , dp(5) ]
+
+            FeaturesContainer :
+                spacing : dp(10)
+
+                FeaturesInformation :
+                    text : "  -> This Artificial Intelligence can tell what is the current time."
+
+                FeaturesInformation :
+                    text : "  -> This Artificial Intelligence can tell what is the current date."
+
+                FeaturesInformation :
+                    text : "  -> This Artificial Intelligence can tell where are the building in Computer Science Department."
+
+                FeaturesInformation :
+                    text : "  -> This Artificial Intelligence can tell who are the teachers that you want find."
+
+                FeaturesInformation :
+                    text : "  -> You can also ask who are the creator of this Artificial Intelligence."
+
+                FeaturesInformation :
+                    text : "  ! This program is created for fun and it's not very efficient."
+
+                FeaturesInformation :
+                    text : "  ! If you need a important questions that related to the school , please proceed to the main building."
+
+                CompanyLogo :
+                    source : root.logo
+
+
+        # --------> A.I. Pictures
+        BoxLayout :
+            size_hint : 1 , 0.3
+            orientation : 'vertical'
+
+            TitleBar :
+                size_hint : 1 , 0.16
+                text : 'Artificial Intelligence'
+
+
+            Image :
+                size_hint : 1 , 0.84
+                source : root.emotion
+                keep_ratio : False
+                allow_stretch : True
+
+
+    BoxLayout :
+        size_hint : 0.75 , 1
+        orientation : 'vertical'
+
+        TitleBar :
+            size_hint : 1 , 0.05
+            text : 'Conversations'
+
+        # --------> Conversations Container
+        ConversationBackground :
+            size_hint : 1 , 0.85
+
+            ConversationsContainer :
+                id : conversations
+
+        BoxLayout :
+            size_hint : 1 , 0.1
+
+            MicrophoneIcon :
+                canvas.before :
+
+                size_hint : 0.25 , 1
+                icon : 'microphone-outline' if root.is_speaking else 'microphone'
+
+
+            ActivityLabel :
+                id : activity_info
+                size_hint : 0.45 , 1
+
+            SettingsBackground :
+                size_hint : 0.45 , 1
+                orientation : 'vertical'
+
+                BoxLayout :
+                    size_hint : 1 , 0.7
+
+                    GenderButton :
+                        size_hint : 0.5 , 1
+                        icon : 'face-man-outline' if not root.is_voice_man else 'face-man'
+                        icon_size : sp(25) if not root.is_voice_man else sp(35)
+
+                        on_release:
+                            root.changeVoice()
+
+                    GenderButton :
+                        size_hint : 0.5 , 1
+                        icon : 'face-woman-outline' if root.is_voice_man else 'face-woman'
+                        icon_size : sp(25) if root.is_voice_man else sp(35)
+
+                        on_release:
+                            root.changeVoice()
+
+
+                VolumeSlider :
+                    size_hint : 1 , 0.3
+
+                    on_touch_up :
+                        root.changeAmbient(self)
+
+
+# ================ Sub Part of Main Widget
+<FeaturesContainer> :
+    adaptive_height : True
+    cols : 1
+
+    canvas.before :
+        Color :
+            rgba : chex('532526')
+        Rectangle :
+            pos : self.pos
+            size : self.size
+
+<ConversationsContainer> :
+    adaptive_height : True
+    cols : 1
+    spacing : dp(20)
+    padding : [ dp(0) , dp(20) , dp(0) , dp(30) ]
+
+
+<Chat> :
+
+    chat : chat
+    adaptive_height : True
+    padding : [ dp(10) , dp(0) , dp(10) , dp(0) ]
+    spacing : dp(20)
+    opacity : 0
+
+    Label :
+        canvas.before :
+            Color :
+                rgba : chex('cbcdc9')
+            RoundedRectangle:
+                pos : self.pos
+                size : self.size
+                radius : ( 10 , 10 , 10 , 0 )
+
+        id : chat
+        color : chex('532526')
+        text_size: self.width + dp(-20) , None
+        size_hint: 0.8 , None
+        height : self.texture_size[1] + dp(20)
+        font_name : 'chat_font'
+        font_size : sp(19)
+        text : "Do you think it's possible to have feelings for more than one person at the same time?"
+        halign : 'center'
+
+    Label :
+        size_hint: 0.2 , None
+        height : chat.height
+
+
+
+# ================ Additional Designing For Widgets
+<CompanyLogo@Image>:
+    size_hint : 1 , None
+    height : 200
+    keep_ratio : False
+    allow_stretch : True
+
+<VolumeSlider@MDSlider>:
+    canvas.before :
+        Color :
+            rgba : chex('cbcdc9')
+        Rectangle :
+            pos : self.pos
+            size : self.size
+
+    hint: True
+    hint_bg_color: chex('532526')
+    hint_text_color: chex('cbcdc9')
+    color : chex('532526')
+    thumb_color_active: chex('532526')
+    thumb_color_inactive: chex('532526')
+
+<GenderButton@MDIconButton> :
+    md_bg_color : 0 , 0 , 0 ,0
+    canvas.before :
+        Color :
+            rgba : chex('cbcdc9')
+        Rectangle :
+            pos : self.pos
+            size : self.size
+
+    theme_icon_color: "Custom"
+    icon_color : chex('532526')
+
+<SettingsBackground@BoxLayout> :
+    canvas.before:
+        Color :
+            rgba : chex('532526')
+        Rectangle :
+            pos : self.pos
+            size : self.size
+
+<MicrophoneIcon@MDFloatingActionButton>:
+    md_bg_color : 0 , 0 , 0 ,0
+    canvas.before :
+        Color :
+            rgba : chex('532526')
+        Rectangle :
+            pos : self.pos
+            size : self.size
+
+    icon_size : sp(45)
+
+
+<ActivityLabel@Label> :
+    canvas.before :
+        Color :
+            rgba : chex('cbcdc9')
+        Rectangle :
+            pos : self.pos
+            size : self.size
+
+    text_size: self.width + dp(-20) , None
+    text : 'Listening'
+    color : chex('532526')
+    font_name : 'activity_font'
+    font_size : sp(30)
+
+
+<ConversationBackground@ScrollView> :
+    canvas.before :
+        Color :
+            rgba : chex('532526')
+        Rectangle :
+            pos : self.pos
+            size : self.size
+
+<TitleBar@Label>:
+    canvas.before :
+        Color :
+            rgba : chex('cbcdc9')
+        RoundedRectangle:
+            pos : self.pos
+            size : self.size
+            radius : ( 0 , 0 , 0 , 0 )
+
+    font_name : 'title_bar_font'
+    color : chex('684243')
+    font_size : sp(20)
+
+<FeaturesInformation@Label> :
+    color : chex('bcc1bd')
+    text_size: self.width + dp(-20) , None
+    size_hint: 1, None
+    height : self.texture_size[1] + dp(20)
+    font_name : 'feature_font'
+    font_size : sp(18)
+
+
+
