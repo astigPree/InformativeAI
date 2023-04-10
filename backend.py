@@ -6,6 +6,7 @@ from datetime import datetime , timedelta
 import re
 import random
 import json
+from fuzzywuzzy import process , fuzz
 from neuralintents import GenericAssistant
 import speech_recognition
 import pyttsx3
@@ -90,6 +91,17 @@ class NewDataHandler:
                     file.write(value + '\n')
         threading.Thread( target=save_with_thread ).start()
 
+    def add_new_doubt_data(self , filename : str , value):
+        def save_with_thread() :
+            if os.path.exists(filename) :
+                with open(filename, 'a') as file :
+                    file.write(value + '\n')
+            else :
+                with open(filename, 'w') as file :
+                    file.write(value + '\n')
+
+        threading.Thread(target=save_with_thread).start()
+
 
 
 # ====== Validator Text
@@ -110,6 +122,13 @@ class TextIdentifier :
 
         return False
 
+    def validate_text_by_typos(self , key : str , text : str , passing = 70 ):
+        for keyword in self.__validation[key.title()] :
+            if fuzz.WRatio(keyword , text ) > passing :
+                print(f"Typos : {keyword}")
+                return True
+        return False
+
     def validate_text_by(self , txt : str , validates : list[str, ...]) -> bool :
         for keyword in regex_creator( validates) :
             if re.findall(keyword , txt) :
@@ -122,36 +141,59 @@ class ResultAnalyzer:
 
     __answers : dict = None
     corrector = TextIdentifier()
-    valid = ( 'crush' , 'time' , 'day' , 'rooms' ) # only keyword exists
+    valid = ( 'crush' , 'time' , 'day' , 'rooms' , 'creator' , 'norle' , 'justine' , 'anave' , 'salidaga' , 'violeta') # only keyword exists
 
     crushes = ( 'Jessa' , 'Ruena Joy' , 'Anthony' , 'Angelica' , 'Jasmine')
 
     errors = ( 'internet error' , )
 
+    doubts_file = 'New Datas/Unsure Data' # format ( category : data )
+    doubt_func = NewDataHandler()
 
-    def load_data(self, answers : str , keywords : str ):
+
+    def load_data(self, answers : str , keywords : str  ):
         with open(answers , 'r' ) as jf :
             self.__answers = json.load(jf)
         self.corrector.load_identifier(keywords)
 
-    def answer(self , category : str ,txt : str , name = "Dear user" ) -> str :
+    def doubt_is_correct(self , category : str , corrector_text : str , past_text : str ) -> tuple[ str , bool ] :
+        # ----> Possible Outcomes
+        if corrector_text == self.errors[0] :
+            return random.choice(self.__answers[corrector_text.title()]) , False
+
+        valid = self.corrector.validate_text_by_typos( 'Correct' , corrector_text )
+        if not valid :
+            return random.choice(self.__answers["Loss"]) , False
+
+        return self.answer(category , past_text , mistaken=True)
+
+
+    def answer(self , category : str ,txt : str , name = "Dear user" , mistaken = False ) -> tuple[ str , bool ] :
+        # ----> Possible Outcomes
         if category == 'internet error' :
-            return random.choice(self.__answers[category.title()])
+            return random.choice(self.__answers[category.title()]) , True
         if category == "greeting" :
-            return random.choice(self.__answers['Greetings'])
+            return random.choice(self.__answers['Greetings']) , True
 
         answers = []
+
         # ----> Making A introductions
         intro = random.choice(self.__answers['Introduction']).format(name = name)
         answers.append(intro)
+
         # ---> Checking if there is maybe an incorrect data
-        if category in self.valid :
-            if not self.corrector.validate_text(category , txt) :
-                doubt = random.choice(self.__answers['Doubt'])
-                answers.append(doubt)
+        if category in self.valid and not mistaken :
+            if not self.corrector.validate_text_by_typos(category, txt) :
+                doubt = random.choice(self.__answers[f"Doubt {category.title()}"])
+                self.doubt_func.add_new_doubt_data(self.doubts_file, f"{category} : {txt}")
+                return doubt , False
+            else :
+                self.doubt_func.add_new_data(category , txt)
+        else :
+            self.doubt_func.add_new_data(category, txt)
 
         # ----> Checking if its talk about the room
-        if category == self.valid[-1] :
+        if category == self.valid[3] :
             for room in self.checking_rooms(txt) :
                 answers.append(room)
         elif category == self.valid[1] :
@@ -167,7 +209,7 @@ class ResultAnalyzer:
         answers.append(clossing)
 
         print("Answer : " ,answers)
-        return self.text_merger(answers)
+        return self.text_merger(answers) , True
 
 
     def text_merger(self , texts : list[str , ... ]) -> str:
@@ -187,8 +229,8 @@ class ResultAnalyzer:
         days = get_the_day()
         text = random.choice(self.__answers['Day']).format(
             current = f"{days['today date']} {days['today day']}" ,
-            prev = f"{days['next date']} {days['next day']}" ,
-            next = f"{days['prev date']} {days['prev day']}"
+            next = f"{days['next date']} {days['next day']}" ,
+            prev = f"{days['prev date']} {days['prev day']}"
         )
         return text
 
@@ -297,7 +339,9 @@ class Recognition :
         while True :
             try :
                 with speech_recognition.Microphone() as mic :
-                    #self.__recorder.adjust_for_ambient_noise(mic , duration=0.3 )
+                    if self.__recorder.energy_threshold < 500 :
+                        self.__recorder.adjust_for_ambient_noise(mic , duration=0.3 )
+
                     audio = self.__recorder.listen(mic)
                     text : str = self.__recorder.recognize_google(audio)
                     return text.lower()
@@ -320,9 +364,9 @@ class Recognition :
 
     def move_threshold(self , interval):
         if not self.moved_threshold :
-            self.__recorder.energy_threshold += 1
+            self.__recorder.energy_threshold += 50
         else :
-            self.__recorder.energy_threshold -= 1
+            self.__recorder.energy_threshold -= 50
 
     # def listen_offline(self):
     #     self.__stream.start_stream()
